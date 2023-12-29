@@ -1,3 +1,5 @@
+/* eslint class-methods-use-this: "off" */
+
 export default class Entity {
   list() {
     throw new Error('Method "list" should be implemented');
